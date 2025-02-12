@@ -1,0 +1,4 @@
+.modal-body {
+  max-height: 1000px; /* Thay đổi giá trị này nếu cần */
+  overflow-y: auto; /* Thêm cuộn dọc */
+}

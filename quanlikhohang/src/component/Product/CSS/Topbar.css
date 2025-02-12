@@ -1,0 +1,35 @@
+/* Topbar.css */
+.topbar {
+  background-color: #3a5167; /* Màu nền chính */
+  color: #ffffff; /* Màu chữ sáng */
+  padding: 10px 20px; /* Padding cho topbar */
+  display: flex;
+  justify-content: space-between; /* Căn giữa các phần tử */
+  align-items: center; /* Căn giữa theo chiều dọc */
+  width: 100%; /* Chiều rộng 100% */
+  height: auto;
+  z-index: 1000; /* Đảm bảo topbar nằm trên các phần tử khác */
+}
+
+.actions {
+  display: flex;
+  gap: 10px; /* Khoảng cách giữa các nút */
+}
+
+button {
+  background-color: #ffffff; /* Nền nút trắng */
+  color: #007bff; /* Màu chữ chính */
+  border: none; /* Không có viền */
+  border-radius: 5px; /* Bo tròn góc */
+  padding: 8px 12px; /* Padding cho nút */
+  transition: background-color 0.3s, color 0.3s; /* Hiệu ứng chuyển tiếp */
+}
+
+button:hover {
+  background-color: #e9ecef; /* Màu nền khi hover */
+  color: #0056b3; /* Màu chữ khi hover */
+}
+
+.form-control {
+  border-radius: 5px; /* Bo tròn góc cho ô tìm kiếm */
+}

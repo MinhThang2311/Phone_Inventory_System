@@ -1,0 +1,4 @@
+.content {
+  width: calc(100% - 250px); /* Giả sử sidebar có chiều rộng 250px */
+  overflow: auto; /* Đảm bảo nội dung không bị tràn ra ngoài */
+}

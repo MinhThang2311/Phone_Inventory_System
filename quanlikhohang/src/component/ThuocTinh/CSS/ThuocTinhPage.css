@@ -1,0 +1,7 @@
+.content-container {
+  max-width: calc(100% - 250px); /* Giả sử sidebar có chiều rộng 250px */
+  overflow: auto; /* Đảm bảo nội dung không bị tràn ra ngoài */
+}
+.content-container {
+  width: calc(100% - 250px); /* 250px là chiều rộng của sidebar */
+}
